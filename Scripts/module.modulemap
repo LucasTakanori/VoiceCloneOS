@@ -1,0 +1,9 @@
+module OmniVoiceNative {
+    header "omnivoice.h"
+    export *
+    link "c++"
+    link framework "Accelerate"
+    link framework "Foundation"
+    link framework "Metal"
+    link framework "MetalKit"
+}
